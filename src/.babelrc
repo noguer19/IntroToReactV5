@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"], //babel/preset-react will bring with it all things you need to transpile react and @babel/preset-env will transpile your code for the environment that you specify in the browserslist section of your package.json
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
